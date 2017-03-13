@@ -744,3 +744,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+section#about p {
+  font-size: 2rem;
+  margin: 30px 0;
+}
+
+.team-member .description {
+  margin: 20px 0 0;
+  text-align: justify;
+}
