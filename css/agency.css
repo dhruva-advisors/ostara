@@ -773,3 +773,8 @@ section h2.team-section-heading {
 .team-member img {
   width: 150px;
 }
+
+.contact-us {
+  font-size: 2rem;
+  color: white;
+}
