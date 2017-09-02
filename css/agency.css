@@ -757,7 +757,15 @@ section#about p {
   margin: 30px 0;
 }
 
+section h2.team-section-heading {
+  margin-bottom: 50px;
+}
+
 .team-member .description {
   margin: 20px 0 0;
   text-align: justify;
+}
+
+.team-member img {
+  width: 150px;
 }
