@@ -306,6 +306,12 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
+#portfolio .transactions-subheading {
+  font-style: normal;
+  font-size: 2rem;
+  text-align: left;
+  line-height: 1.75;
+}
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -342,6 +348,21 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
+#portfolio .portfolio-item .portfolio-link .portfolio-img-meta {
+  position: absolute;
+  width: 50%;
+  margin: -47px 0 0;
+  font-size: 20px;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  z-index: 1;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-img-meta-right {
+  right: 0;
+  padding-right: 20px;
+  text-align: right;
+}
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
@@ -355,9 +376,9 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
   font-size: 16px;
-  margin: 0;
+  margin: 10px 0 0 0;
+  text-align: left;
 }
 #portfolio * {
   z-index: 2;
